@@ -1,0 +1,44 @@
+.aboutforproject{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+   padding-top: 100px;
+    .aboutwe{
+h1{
+    color: white;
+    font-size: 40px;
+
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+    }
+    .aboutwe1{
+        display: flex;
+        flex-direction:column;
+        h1{
+            font-size: 40px;
+            color: white;
+        }
+
+    }
+    a{
+        &:hover{
+            color: #FFC978;
+        }
+        text-decoration: none;
+        color: white;
+        padding: 15px 0 ;
+        font-size: 20px;
+    }
+    .aboutwe2{
+        h1{
+            font-size: 30px;
+        }
+        p{
+            padding-top: 10px;
+            color: white;
+        }
+    }
+}

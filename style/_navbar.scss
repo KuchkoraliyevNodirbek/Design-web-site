@@ -1,0 +1,45 @@
+
+.contenier{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  position: relative;
+   
+   
+   .title{
+    h1{
+      font-size: 60px;
+      color: white;
+padding: 30px;
+      
+    }
+   }
+ .title_center{
+  padding: 50px;
+  flex: 1;
+ a{
+
+  text-decoration: none;
+  color:#ABAEB7;
+  font-size:16px;
+  padding-right: 20px;
+ }
+ }
+ 
+ 
+}
+.title_center1 {
+  //background: url(./foto_right.png);
+  //width: 450px;
+  //height: 550px;
+ text-align: right;
+ padding: 40px;
+
+ button{
+  background: none;
+  color: white;
+  border:1px solid white;
+  padding: 7px 17px;
+ }
+}

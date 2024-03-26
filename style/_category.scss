@@ -1,0 +1,34 @@
+h1{
+    font-family:'Larken-Medium';
+   
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+p{ 
+    padding-top: 50px;
+    text-align: center;
+    color: #FFC978;
+    font-family:'Larken-Medium';
+}
+.plan1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    
+    .plan{
+        background: url(./plan_foto.png);
+        background-position: cover;
+        width: 250px;
+        height: 400px;
+        position: relative;
+   
+       
+    }
+   
+}
+
+.plan_content{
+    position:absolute;
+    bottom: 0;
+}
